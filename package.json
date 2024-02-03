@@ -1,0 +1,15 @@
+{
+	"name": "mail",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20240129.0",
+		"@hono/zod-validator": "^0.1.11",
+		"hono": "^3.12.10",
+		"typescript": "^5.3.3",
+		"wrangler": "^3.26.0"
+	}
+}
